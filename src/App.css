@@ -1,0 +1,133 @@
+
+.homepage-text{
+    font-family:'Dancing Script';
+    color: rgb(98, 64, 130);
+    text-decoration:double;
+    margin: 0px 25%;
+}
+.font{
+  font-family:'Courgette';
+  font-size: x-large;
+}
+.color{
+  background-color: #a780c6;
+}
+
+
+.homepage-card{
+    font-family:'Courgette';
+    font-size:xx-large;
+    padding: 5px;
+    width: 75%;
+    height: 100%;
+    margin: 10%;
+    border: solid 1px black;
+}
+.image-container{
+    width: 18rem;
+    height: 20rem;
+}
+.nav-container{
+  font-family:'Courgette';
+  font-size: x-large;
+  font-weight: bold;
+}
+.card-container:hover{
+    box-shadow: 1px 8px 20px grey;
+    -webkit-transition:  box-shadow .6s ease-in;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translate(0, -50%);
+    padding: 10px;
+  }
+
+  .form-container {
+    align-self: center;
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  }
+  .todo-container{
+    align-self: center;
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  
+  }
+  .form-container > h2 {
+    margin-block: 1rem;
+    padding-block: 0.6rem;
+    color:  #a780c6;
+  }
+  
+  .form-container > form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+  .todo-container > form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  
+  .form-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .form-container input {
+    border: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid gray;
+    font-size: 1.1rem;
+    outline: none;
+  }
+  .todo-container input{
+    border: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid gray;
+    font-size: 1.1rem;
+    outline: none;
+  }
+  
+  .form-container input::placeholder {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+  .todo-container button{
+    background-color: #a780c6;
+    color: black;
+  }
+  .form-container button {
+    background-color: #a780c6;
+    color: black;
+    font-style: italic;
+    border: none;
+    padding: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+  }
+  
+  span a {
+    text-decoration: none;
+    color:#a780c6;
+  }
+  .plan-container{
+    flex-direction: column;
+
+  }
