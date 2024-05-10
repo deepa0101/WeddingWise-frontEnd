@@ -4,7 +4,7 @@
 import { createContext,useEffect,useState } from "react";
 import axios from 'axios';
 
-const URL = "http://localhost:3000/"
+const URL = "https://weddingwise-backend-1.onrender.com/"
 const Context = createContext();
 
 export const ContextProvider= ({ children }) =>{
