@@ -4,3 +4,6 @@ Wedding Wise Application:
 Technology Used:
 1.REST API
 2.React + bootstrap
+
+**DEPLOYMENT URL**
+https://weddingwise.netlify.app/
